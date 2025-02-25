@@ -8,6 +8,9 @@
     "standard_deduction": 12500,
     "itemized_deductions": {
         "medical_expenses": {"threshold": 0.075, "max_limit": null},
-        "charity": {"limit": 0.6}
+        "charity": {"limit": 0.6},
+        "student_loan_interest": {"limit": 2500},
+        "home_office": {"rate": 0.05, "max_limit": 1500},
+        "retirement_contributions": {"limit": 6000}
     }
 }
