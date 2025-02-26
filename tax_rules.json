@@ -1,16 +1,34 @@
 {
-    "tax_brackets": [
-        {"min": 0, "max": 10000, "rate": 0.1},
-        {"min": 10001, "max": 40000, "rate": 0.2},
-        {"min": 40001, "max": 100000, "rate": 0.3},
-        {"min": 100001, "max": null, "rate": 0.4}
-    ],
-    "standard_deduction": 12500,
-    "itemized_deductions": {
-        "medical_expenses": {"threshold": 0.075, "max_limit": null},
-        "charity": {"limit": 0.6},
-        "student_loan_interest": {"limit": 2500},
-        "home_office": {"rate": 0.05, "max_limit": 1500},
-        "retirement_contributions": {"limit": 6000}
+    "2022": {
+        "tax_brackets": [
+            {"min": 0, "max": 10000, "rate": 0.1},
+            {"min": 10001, "max": 40000, "rate": 0.2},
+            {"min": 40001, "max": 100000, "rate": 0.3},
+            {"min": 100001, "max": null, "rate": 0.4}
+        ],
+        "standard_deduction": 12500,
+        "itemized_deductions": {
+            "medical_expenses": {"threshold": 0.075, "max_limit": null},
+            "charity": {"limit": 0.6},
+            "student_loan_interest": {"limit": 2500},
+            "home_office": {"rate": 0.05, "max_limit": 1500},
+            "retirement_contributions": {"limit": 6000}
+        }
+    },
+    "2023": {
+        "tax_brackets": [
+            {"min": 0, "max": 12000, "rate": 0.1},
+            {"min": 12001, "max": 45000, "rate": 0.2},
+            {"min": 45001, "max": 110000, "rate": 0.3},
+            {"min": 110001, "max": null, "rate": 0.4}
+        ],
+        "standard_deduction": 13000,
+        "itemized_deductions": {
+            "medical_expenses": {"threshold": 0.075, "max_limit": null},
+            "charity": {"limit": 0.6},
+            "student_loan_interest": {"limit": 2500},
+            "home_office": {"rate": 0.05, "max_limit": 1500},
+            "retirement_contributions": {"limit": 6000}
+        }
     }
 }
