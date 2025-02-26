@@ -102,11 +102,5 @@ For questions or feedback, feel free to reach out:
 - **IRS** for tax rules and regulations used in this project.
 
 
-### **Steps to Update README in Your Repository**
-1. Copy the entire content above.
-2. Go to your GitHub repository: [https://github.com/Yashika02234/ggh2](https://github.com/Yashika02234/ggh2).
-3. Click on the `README.md` file.
-4. Click the **Edit** button (pencil icon).
-5. Paste the new content.
-6. Scroll down and click **Commit changes**.
+
 
