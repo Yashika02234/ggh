@@ -1,6 +1,6 @@
 import warnings
 warnings.filterwarnings("ignore", category=UserWarning)
-pip install scikit-learn
+
 import streamlit as st
 import json
 import sqlite3
