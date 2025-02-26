@@ -1,5 +1,6 @@
 import warnings
 warnings.filterwarnings("ignore", category=UserWarning)
+pip install scikit-learn
 import streamlit as st
 import json
 import sqlite3
@@ -28,7 +29,7 @@ def authenticate(username, password):
 
 # Show login form if not logged in
 if not st.session_state.logged_in:
-    st.title("📊 Tax Assistant - Login")
+    st.title("📊 TaxMate- Login")
 
     # Wrap the login form in a st.form
     with st.form("login_form"):
@@ -215,7 +216,7 @@ else:
         return tips
 
     # Streamlit UI
-    st.title("📊 Tax Assistant")
+    st.title("📊 TaxMate")
 
     # Sidebar for year selection
     st.sidebar.header("Options")
